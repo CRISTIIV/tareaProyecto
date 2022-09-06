@@ -1,4 +1,15 @@
+"""Doubly Linked List Class."""
+
 Class DoublyLinkedList(object):
-    """Doubly Linked List Class."""
-    def __init__(self,val):
-        self.val = val
+
+    def __init__(self,data):
+        self.data = data
+        self.next = None
+        self.prev = None
+
+    def GetList(self):
+        return self.data
+    
+    def GetNext(self):
+        return self.next
+        
