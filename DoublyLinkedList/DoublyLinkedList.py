@@ -1,3 +1,4 @@
+"""Integrantes: Vicente Cristi, Ignacio Rebolledo, Nicolas Peralta, Diego Ibacache"""
 from DoublyLinkedListItem.DoublyLinkedListItem import DoublyLinkedListItem
 
 class DoublyLinkedList:
