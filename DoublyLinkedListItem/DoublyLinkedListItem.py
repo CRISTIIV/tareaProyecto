@@ -10,9 +10,9 @@ class DoublyLinkedListItem(object):
 
     def GetList(DoublyLinkedList):
         if DoublyLinkedList.next == None:
-            return DoublyLinkedList.item
+            return DoublyLinkedList.data
         else:
-            return DoublyLinkedList.item + " " + DoublyLinkedListItem.GetList(DoublyLinkedList.next)
+            return DoublyLinkedList.data + " " + DoublyLinkedListItem.GetList(DoublyLinkedList.next)
     
     def GetData(self):
         return self.data
